@@ -9,23 +9,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
-    .body {
-        background-image: url("aliment.png");
-    }
+    .body {}
 
     h1,
     h3 {
         text-align: center;
     }
 
+    header {}
+
     .corpo {
         position: absolute;
         top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background: rgb(255, 255, 255);
         padding: 20px;
         border-radius: 15px;
+        border: 2px solid black;
         text-align: center;
     }
 
@@ -54,6 +54,7 @@
             <label for="quantidade">Quantidade (g):</label><br>
             <input type="number" id="quantidade" placeholder="ex: 300" required><br><br>
             <button type="submit" class="btn btn-primary">Buscar</button>
+            <input type="reset" class="btn btn-primary">
         </form>
 
 
